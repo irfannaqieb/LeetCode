@@ -8,8 +8,6 @@ def twoSum(array, target):
                 return [i, j]
 
 # function run in O(n^2)
-# use hash map for better solution
-# dict()
 
 # print(twoSum([3, 2, 4], 6)) ---> Output: [1, 2]
 # print(twoSum([3, 3], 6)) ---> Output: [0, 1]
