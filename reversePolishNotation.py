@@ -30,9 +30,3 @@ class Solution:
                 stack.append(str(c))
 
         return stack[-1]
-
-
-
-
-
-
