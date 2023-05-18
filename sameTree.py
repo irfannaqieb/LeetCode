@@ -13,6 +13,10 @@ class Solution:
 
     def traverseTree(self, root):
         if not root:
-            return ['null']
+            return ["null"]
         else:
-            return [root.val] + self.traverseTree(root.left) + self.traverseTree(root.right)
+            return (
+                [root.val]
+                + self.traverseTree(root.left)
+                + self.traverseTree(root.right)
+            )

@@ -1,6 +1,5 @@
 class Solution:
     def mySqrt(self, x: int) -> int:
-
         lower_lim = 1
         upper_lim = x
 
@@ -18,5 +17,3 @@ class Solution:
                 lower_lim = mid + 1
 
         return lower_lim - 1
-
-

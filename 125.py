@@ -9,12 +9,6 @@ class Solution:
             if c in characters:
                 arr.append(c)
 
-        
         joined_characters = "".join(arr)
 
         return joined_characters == joined_characters[::-1]
-
-
-
-
-
